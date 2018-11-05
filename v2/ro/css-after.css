@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i,800,800i');
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900');
+
+.mainbannertextpart h2,
+.maintitlebgr h1,
+.innercontainer h3,
+.startbutton button,
+.startbutton div,
+.newpagessecondarytitle h2,
+.newpagesiconwrapperbottom h5 {
+	font-family: 'Merriweather', serif !important;
+}
+
+.maintitlebgr h1,
+.innercontainer h3,
+.startbutton button,
+.startbutton div,
+.newpagessecondarytitle h2,
+.newpagesiconwrapperbottom h5 {
+	font-weight: 900;
+}
+
+.maintextpart p,
+.agreement,
+p.numberoficon {
+	font-family: 'Open Sans', sans-serif !important;
+}

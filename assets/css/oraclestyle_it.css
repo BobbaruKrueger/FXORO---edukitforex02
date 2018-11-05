@@ -1,0 +1,12 @@
+.landingmainoracle.landingmainforexeducation.landingmainformtype2.landingmainformstocks4 .alliconsdesktop .iconstitle h2 br
+{
+	display:block;
+}
+
+@media (max-width:700px)
+{
+	.landingmainoracle.landingmainforexeducation.landingmainformtype2.landingmainformstocks4 .alliconsdesktop .iconstitle h2 br
+	{
+		display:none;
+	}
+}

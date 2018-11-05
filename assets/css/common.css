@@ -1,0 +1,174 @@
+/* Common styles for Landing Pages */
+
+.ajax-loading {
+    background: rgba(11, 37, 51, 0.74) url('../images/loading.gif') no-repeat center;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+	margin-top: -25px;
+	margin-left: -25px;
+    z-index: 9991;
+    border-radius: 3px;
+    display: none;
+}
+
+.ajax-loading:before {
+	content:"";
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(11, 37, 51, 0.4);
+	top: 0;
+	left: 0;
+	z-index: 9990;
+}
+iframe[name="google_conversion_frame"] {
+	position:absolute!important;
+	width:0!important;
+	height:0!important;
+}
+.quick-start-popup {
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:#fff;
+	background:rgba(255,255,255,.8);
+	z-index:99;
+}
+.quick-start-popup.active {
+	display:block;
+}
+.thank-you-page-4 .quick-start-popup, .thank-you-page-4 .quick-start-popup.active {
+	display:none;
+}
+.quick-start-popup .quick-start-popup-container {
+	display:table;
+	width:100%;
+	height:100%;
+}
+.quick-start-popup .quick-start-popup-content {
+	display:table-cell;
+	vertical-align:middle;
+}
+.quick-start-popup .quick-start-popup-content p {
+	padding:0px 20px;
+	color:#313131;
+	font-family:confidel;
+	font-size:24px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.quick-start-popup .quick-start-popup-content p a {
+	color:#2c94c7;
+}
+.quick-start-popup-step p {
+	margin:0;
+	padding:0px 10px;
+	color:#6f6f70;
+	font-size:14px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.quick-start-popup-step p a {
+	color:#3396f3;
+}
+.quick-start-popup-step-thank-you-page-4 p {
+	display:none;
+	margin:0;
+	padding:0px 10px;
+	color:#6f6f70;
+	font-size:14px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.thank-you-page-4 .quick-start-popup-step-thank-you-page-4 p {
+	display:block;
+}
+.quick-start-popup-step-thank-you-page-4 p a {
+	color:#3396f3;
+}
+
+.form-contact .form-element.newsletter,
+.form-contact .form-element.tc {
+	display: block;
+	height: 100%;
+	width: 99%;
+	margin: auto;
+	font-size: 14px;
+}
+.form-contact .form-element.newsletter label,
+.form-contact .form-element.tc label {
+	display: inline;
+	color: white;
+	font-size: 14px;
+}
+.form-contact .form-element.newsletter input[type="checkbox"],
+.form-contact .form-element.tc input[type="checkbox"] {
+	display: inline-block;
+	position: static;
+	width: auto;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: auto;
+}
+.form-contact .form-element input.button {
+	margin-top: -18px;
+}
+
+header nav .form-contact .form-element.newsletter {
+	display: block;
+	height: 100%;
+	width: 190px;
+	margin: 15px auto 0;
+	font-size: 14px;
+}
+header nav .form-contact .form-element.newsletter label {
+	display: inline;
+	background: none;
+	color: #fff;
+}
+header nav .form-contact .form-element.newsletter input[type="checkbox"] {
+	position: static;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin-right: 5px;
+	margin-left: 0;
+}
+header nav .form-contact .form-element.newsletter input[type="checkbox"]:hover {
+	cursor: pointer;
+}
+
+header nav .form-contact .form-element input.button {
+	margin-top: -18px;
+}
+header nav .form-contact.desktop .form-element input.button {
+	margin-top: 0;
+}
+
+@media (max-width: 1000px) {
+	header nav .form-contact .form-element.newsletter {
+	  width: 160px;
+	}
+}
+
+@media all and (max-width:750px) {
+	.form-contact .form-element input.button {
+		margin-top: 0;
+	}
+	.form-contact .form-element.newsletter {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.form-contact.mobile .form-element.newsletter {
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+}

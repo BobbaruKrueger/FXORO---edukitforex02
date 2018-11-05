@@ -1,0 +1,77 @@
+@media (max-width:1020px)
+{
+	.landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2
+	{
+		font-size:19px;
+	}
+	
+	
+}
+
+@media (max-width:885px)
+{
+	.landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2
+	{
+		font-size:18px;
+		margin-bottom:5px;
+	}
+	
+	.landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2 br{
+		display:block;
+	}
+}
+
+@media (max-width:630px)
+{
+	.landingmainnewpages.landingsignals4all.landingsignalskitgreen .mainbannertextpart h2 br
+	{
+		display:block;
+	}
+	
+	.landingmainnewpages.landingsignals4all.landingsignalskityellow .mainbannertextpart h2 br
+	{
+		display:block;
+	}
+	
+	
+	
+	.landingmainnewpages.landingsignals4all.landingairbridgeall.landingsignalskitgreen .mainbannerairbridge .mainbannertextpart h2
+	{
+		margin-bottom:3px;
+	}
+	
+	
+}
+
+
+@media (max-width:490px)
+{
+	.landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2{
+		font-size:15px;
+	}
+	
+	.landingmainnewpages.landingsignals4all .mainbannertextpart h2 br{
+		display:block;
+	}
+}
+
+
+@media (max-width:400px)
+{
+	.landingmainnewpages.landingsignals4all .mainbannertextpart h2 br{
+		display:none;
+	}
+	
+	.landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2{
+		font-size:14px;
+	}
+}
+
+@media (max-width:360px)
+{
+	
+	
+	.landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2{
+		font-size:12px;
+	}
+}

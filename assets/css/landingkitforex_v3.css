@@ -1,0 +1,356 @@
+body {
+    font-family: 'Calibri';
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #010101;
+    text-transform: uppercase;
+}
+
+.section {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.services h6 {
+    font-size: 1.25rem;
+    color: #404b77;
+}
+
+/*** Header ***/
+
+.header {
+    background: url('../../assets/images/header.jpg') no-repeat;
+    background-size: cover;
+}
+
+.section.header {
+    padding-bottom: 18.3%;
+}
+
+.header:before {}
+
+.header .diagon-alley {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 18.3vw;
+    height: 18.43vw;
+}
+
+
+.header h1 {
+    font-size: 3.8rem;
+    color: #fff;
+    line-height: 1;
+}
+
+h1.logo a {
+    background-image: url(../../assets/images/fxoro_logo.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: transparent;
+    width: 116px;
+    height: 45px;
+    display: block;
+}
+
+/*** Form ***/
+
+.mobile-form {
+    top: 0;
+    margin-top: -17%;
+}
+
+.submitformmain input,
+.submitformmain select {
+    border: 1px solid #000000;
+    border-radius: 0px;
+    color: #484848;
+    font-size: 1rem;
+    padding: .625rem .875rem;
+}
+
+.inputerror,
+.submiterror,
+div#notagreeerror {
+    font-size: 10px;
+    font-weight: 700;
+    color: #010101;
+    margin-bottom: 1rem;
+}
+
+div#notagreeerror {
+    margin-bottom: 0px;
+}
+
+input#phoneprefix {
+    width: 30%;
+    float: left;
+}
+
+input#phonenumber {
+    border-radius: 0px;
+    width: 70%;
+    border-left: none;
+}
+
+input#lname,
+select#country-selector {
+    border-radius: 0px;
+}
+
+input#lname {
+    border-left: none;
+}
+
+#checksubmit {
+    display: none;
+}
+
+.btn,
+#checksubmit {
+    border-radius: 24px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    padding: .625rem 1.125rem;
+    text-transform: uppercase;
+}
+
+.btn-success,
+#checksubmit {
+    background-color: #c6ff00;
+    /* border: 2px solid #e91f1f;*/
+    border-radius: 0px;
+    color: #010101;
+    font-size: 1.875rem;
+    font-family: "BebasNeueRegular", sans-serif;
+}
+
+button#form_button,
+#checksubmit {
+    padding: .75rem 1.125rem;
+    width: 100%;
+    line-height: .99;
+}
+
+button#form_button:after {
+    content: "icon";
+    background: url(../../assets/images/register_arrow.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-indent: -999em;
+    width: 18px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#checksubmit {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-secondary:hover,
+.btn-success:not([disabled]):not(.disabled).active,
+.btn-success:not([disabled]):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+    background-color: #c6ff00;
+    border: none;
+    color: #010101;
+}
+
+.btn-success.focus,
+.btn-success:focus,
+.btn-success:not([disabled]):not(.disabled).active,
+.btn-success:not([disabled]):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.submitformmain input,
+.submitformmain select {
+    width: 100%;
+}
+
+input.form-check-input,
+input#agreeinput {
+    width: auto;
+}
+
+.submitformmain select {
+    height: calc(2.3125rem + 9px);
+}
+
+.agreement label {
+    display: inline;
+}
+
+.risklinkpar {
+    /* padding-left: 16px;8*/
+}
+
+.risklinkpar {
+    display: block;
+}
+
+.risklink {
+    margin-bottom: 0px;
+    font-size: .8125rem;
+}
+
+/*** Payment Icons ***/
+
+.payment,
+.payment .icon {
+    display: inline-block;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.payment .icon img {
+    width: 100%;
+}
+
+/*** Footer ***/
+
+footer {
+    font-size: .8125rem;
+}
+
+/*** Responsive ***/
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .btn-success,
+    #checksubmit {
+        font-size: 1.5rem;
+    }
+
+    button#form_button:after {
+        position: absolute;
+        top: 9px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .mobile-form {
+        margin-top: -10%;
+    }
+    .header h1 {
+        font-size: 53px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .header h1 {
+        font-size: 51px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile-form {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width:576px) and (max-width: 767px) {
+    .header h1 {
+        font-size: 37px;
+    }
+}
+
+@media (min-width:468px) and (max-width: 575px) {
+    .header h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 528px) {
+
+    .container.section .row.no-gutters.d-flex .col.col-md.col-xl-9.align-self-end h1.pb-4,
+    .container.section.services .row .col h1.pb-5 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 467px) {
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .container.section .row.no-gutters.d-flex .col.col-md.col-xl-9.align-self-end h1.pb-4 {
+        font-size: 30px;
+    }
+
+    .col.col-xl-9 .row p.col.col-lg-10 {
+        font-size: 1rem !important;
+    }
+}
+
+@media (min-width:410px) and (max-width: 433px) {
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .container.section .row.no-gutters.d-flex .col.col-md.col-xl-9.align-self-end h1.pb-4,
+    .container.section.services .row .col h1.pb-5 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 409px) {
+    .header h1 {
+        font-size: 24px;
+    }
+    .container.section .row.no-gutters.d-flex .col.col-md.col-xl-9.align-self-end h1.pb-4,
+    .container.section.services .row .col h1.pb-5 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 380px) {
+    .header h1 {
+        font-size: 20px;
+        line-height: 1.15;
+    }
+
+    .container-fluid.section.header .container .row .col.col-xl-9 p {
+        font-size: 1rem !important;
+        line-height: 1.2;
+    }
+
+    .container.section .row.no-gutters.d-flex .col.col-md.col-xl-9.align-self-end h1.pb-4,
+    .container.section.services .row .col h1.pb-5 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .payment .icon img {
+        max-width: 60%;
+    }
+}

@@ -1,0 +1,149 @@
+.landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 br {
+    display: block;
+}
+
+.landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 {
+    font-size: 38px;
+}
+
+h3.newpagesthirdtitle {
+    text-transform: uppercase;
+}
+
+.startbutton button {
+    font-size: 20px !important;
+}
+
+.landingmainnewpages.landingsignals4all .mainbannertextpart h2 {
+    font-size: 26px;
+}
+
+.landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart,
+.landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2 {
+    background: none;
+}
+
+.landingmainnewpages.landingsignals4all .mainbannertextpart p {
+    max-width: 700px;
+}
+
+.landingmainnewpages.landingsignals4all .mainbannertextpart .maintextpart {
+    background-color: rgb(255, 255, 255, .5);
+}
+
+@media (max-width:1020px) {
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 br {
+        display: none;
+    }
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:885px) {
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 {
+        font-size: 24px;
+    }
+
+    .landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:770px) {
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 {
+        font-size: 24px!important;
+    }
+
+    .landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2 {
+        font-size: 18px;
+    }
+
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintextpart p {
+        font-size: 14px;
+    }
+
+    .landingmainnewpages.landingsignals4all .mainbannertextpart {
+        max-width: 396px;
+    }
+}
+
+@media (max-width:630px) {
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 {
+        font-size: 26px!important;
+    }
+
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintextpart p {
+        font-size: 14px;
+    }
+
+    .landingmainnewpages.landingsignals4all .mainbannertextpart {
+        max-width: 434px;
+    }
+
+    .landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2 {
+        font-size: 19px;
+    }
+}
+
+@media (min-width:521px) and (max-width:630px) {
+    .landingmainnewpages.landingsignals4all .mainbannertextpart {
+        max-width: 382px;
+    }
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 {
+        font-size: 23px!important;
+    }
+    .landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2 {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:491px) and (max-width:520px) {
+    .landingmainnewpages.landingsignals4all .mainbannertextpart {
+        max-width: 349px;
+    }
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 {
+        font-size: 21px!important;
+    }
+
+    .landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2 {
+        font-size: 16px;
+    }
+
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintextpart p {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:401px) and (max-width:490px) {
+    .landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2 {
+        font-size: 13px;
+    }
+
+    .landingmainnewpages.landingsignals4all .mainbannertextpart {
+        max-width: 295px;
+    }
+
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 {
+        font-size: 18px!important;
+    }
+
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintextpart p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:320px) and (max-width:360px) {
+    .landingmainnewpages.landingsignals4all .mainbannertextpart .maintitlebgr h1 {
+        font-size: 21px!important;
+    }
+    .landingmainnewpages.landingsignals4all.landingsignals4allblue .mainbannertextpart h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:360px) {
+    .maintextpart {
+        background: rgba(255, 255, 255, .5);
+    }
+}

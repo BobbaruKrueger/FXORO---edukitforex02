@@ -1,0 +1,282 @@
+body {
+    font-family: 'Calibri';
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #010101;
+    text-transform: uppercase;
+}
+
+.section {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.services h6 {
+    font-size: 1.25rem;
+    color: #404b77;
+}
+
+/*** Header ***/
+
+.header {
+    background: url('../img/header.jpg') no-repeat;
+    background-size: cover;
+    /*background-size: cover;
+    height: 637px;*/
+    /* overflow: hidden;
+    position: relative;*/
+}
+
+.section.header {
+    padding-bottom: 18.3%;
+}
+
+.header:before {
+    /*background-position: 50%;
+    background-image: url(../img/header.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    z-index: 0;
+    content: "";
+    pointer-events: none;*/
+}
+
+.header .diagon-alley {
+    position: absolute;
+    /* bottom: -1px; */
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 18.3vw;
+    /* bottom: 0px; */
+}
+
+
+.header h1 {
+    font-size: 3.125rem;
+    color: #fff;
+    line-height: 1;
+}
+
+h1.logo a {
+    background-image: url(../img/fxoro_logo.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: transparent;
+    width: 116px;
+    height: 45px;
+    display: block;
+}
+
+/*** Form ***/
+
+.mobile-form {
+    /* position: absolute;*/
+    top: 0;
+    /* padding-top: 20rem;*/
+    margin-top: -17%;
+}
+
+.submitformmain input,
+.submitformmain select {
+    border: 1px solid #000000;
+    border-radius: 0px;
+    color: #484848;
+    font-size: 1rem;
+    padding: .625rem .875rem;
+}
+
+.inputerror,
+.submiterror,
+div#notagreeerror {
+    font-size: 10px;
+    font-weight: 700;
+    color: #010101;
+    margin-bottom: 1rem;
+}
+
+div#notagreeerror {
+    margin-bottom: 0px;
+}
+
+input#phoneprefix {
+    width: 30%;
+    float: left;
+}
+
+input#phonenumber {
+    border-radius: 0px;
+    width: 70%;
+    border-left: none;
+}
+
+input#lname,
+select#country-selector {
+    border-radius: 0px;
+}
+
+input#lname {
+    border-left: none;
+}
+
+#checksubmit {
+    display: none;
+}
+
+.btn,
+#checksubmit {
+    border-radius: 24px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    padding: .625rem 1.125rem;
+    text-transform: uppercase;
+}
+
+.btn-success,
+#checksubmit {
+    background-color: #c6ff00;
+    /* border: 2px solid #e91f1f;*/
+    border-radius: 0px;
+    color: #010101;
+    font-size: 1.875rem;
+    font-family: "BebasNeueRegular", sans-serif;
+}
+
+button#form_button,
+#checksubmit {
+    padding: .75rem 1.125rem;
+    width: 100%;
+    line-height: .99;
+}
+
+button#form_button:after {
+    content: "icon";
+    background: url(../img/register_arrow.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-indent: -999em;
+    width: 18px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#checksubmit {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-secondary:hover,
+.btn-success:not([disabled]):not(.disabled).active,
+.btn-success:not([disabled]):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+    background-color: #c6ff00;
+    border: none;
+    color: #010101;
+}
+
+.btn-success.focus,
+.btn-success:focus,
+.btn-success:not([disabled]):not(.disabled).active,
+.btn-success:not([disabled]):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.submitformmain input,
+.submitformmain select {
+    width: 100%;
+}
+
+input.form-check-input,
+input#agreeinput {
+    width: auto;
+}
+
+.submitformmain select {
+    height: calc(2.3125rem + 9px);
+}
+
+.agreement label {
+    display: inline;
+}
+
+.risklinkpar {
+    /* padding-left: 16px;8*/
+}
+
+.risklinkpar {
+    display: block;
+}
+
+.risklink {
+    margin-bottom: 0px;
+    font-size: .8125rem;
+}
+
+/*** Payment Icons ***/
+
+.payment,
+.payment .icon {
+    display: inline-block;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.payment .icon img {
+    width: 100%;
+}
+
+/*** Footer ***/
+
+footer {
+    font-size: .8125rem;
+}
+
+/*** Responsive ***/
+
+@media (max-width: 320px) {
+    .payment .icon img {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .mobile-form {
+        margin-top: -10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-form {
+        margin-top: 0px;
+    }
+}
